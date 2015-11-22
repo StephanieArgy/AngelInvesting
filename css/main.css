@@ -66,15 +66,40 @@ textarea {
    ========================================================================== */
 
 
+/*
+
+Colors:
+
+#F2BF90
+#A8765C
+#D6815F
+#D93C3B
+#0B0B0E
+
+*/
+
+body {
+  background: #0B0B0E;
+  border: 4px double #D6815F;
+  color: #ffe9d5;
+  margin: 2%;
+  padding: 3%;
+}
 
 
+/*Index*/
 
+#rafaelAngels {
+  display: block;
+  margin: auto;
+  max-width: 65%;
+}
 
-
-
-
-
-
+h1 {
+  color: #D93C3B;
+  font-size: 1.4rem;
+  text-align: center;
+}
 
 
 
@@ -199,7 +224,48 @@ textarea[contenteditable] {
 
 @media only screen and (min-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
+
+  body {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+    header {
+/*      background: #4d1a00;*/
+      background: linear-gradient(180deg, #401500, #4d1a00);
+      border-bottom: 4px double #F2BF90;
+    }
+  
+  .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      align-content: center;
+      justify-content: space-between;
+  }
+
+    #rafaelAngels {
+      margin-left: 0;
+      max-width: 25%;
+  }
+  
+  h1 {
+    color: #F2BF90;
+    text-shadow: 4px 4px 8px #222;
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  
+  main {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
 }
+
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
