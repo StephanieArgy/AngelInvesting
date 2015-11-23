@@ -86,13 +86,18 @@ body {
   padding: 3%;
 }
 
+#cherub {
+  margin-right: 2%;
+  width: 20%;
+}
+
 
 /*Index*/
 
 #rafaelAngels {
   display: block;
   margin: auto;
-  max-width: 65%;
+  max-width: 85%;
 }
 
 h1 {
@@ -259,9 +264,13 @@ textarea[contenteditable] {
   }
   
   main {
-    margin-left: 9rem;
-    margin-right: 9rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
   }
+  
+  #cherub {
+  width: 10%;
+}
 
 }
 
