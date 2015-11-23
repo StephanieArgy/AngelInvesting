@@ -23,18 +23,6 @@ body {
     line-height: 1.4;
 }
 
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: #551a8b;
-}
-
-a:hover {
-    color: #06e;
-}
-
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -81,14 +69,46 @@ Colors:
 body {
   background: #0B0B0E;
   border: 4px double #D6815F;
-  color: #ffe9d5;
+  color: #ffe1c5;
+  font-family: Georgia, serif;
   margin: 2%;
   padding: 3%;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+section {
+  border-bottom: 1px dotted #ffe1c5;
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #fff8f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:visited {
+  color: #808080;
+}
+
+a:hover {
+  color: #D93C3B;
 }
 
 #cherub {
   margin-right: 2%;
   width: 20%;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 
