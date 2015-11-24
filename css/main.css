@@ -70,7 +70,7 @@ body {
   background: #0B0B0E;
   border: 4px double #D6815F;
   color: #ffe1c5;
-  font-family: Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 2%;
   padding: 3%;
 }
@@ -89,13 +89,8 @@ section:last-of-type {
   border: none;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
-}
-
 a {
   color: #fff8f2;
-  font-family: 'Open Sans', sans-serif;
 }
 
 a:visited {
@@ -115,6 +110,12 @@ li {
   margin-bottom: 10px;
 }
 
+#footerWings {
+  display: block;
+  margin: auto;
+  width: 5%;
+}
+
 
 /*Index*/
 
@@ -130,9 +131,12 @@ h1 {
   text-align: center;
 }
 
+/*Image Credits*/
 
-
-
+#angelWings {
+  margin-right: 2%;
+  width: 10%;
+}
 
 
 
