@@ -113,7 +113,7 @@ li {
 #footerWings {
   display: block;
   margin: auto;
-  width: 5%;
+  width: 15%;
 }
 
 
@@ -301,6 +301,11 @@ textarea[contenteditable] {
   #cherub {
   width: 10%;
 }
+  
+  #footerWings {
+  width: 5%;
+}
+
 
 }
 
